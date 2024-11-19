@@ -1,6 +1,8 @@
 package com.xsodus.az.app_service.backend.service;
 
 import com.xsodus.az.app_service.backend.component.MyFirstBean;
+import java.time.LocalDate;
+import java.time.LocalDateTime;
 import org.springframework.stereotype.Service;
 
 @Service
@@ -13,6 +15,7 @@ public class MyStoryService {
 
 
     public String getMyFirstStory() {
-        return "My first story is from:" + myFirstBean.getName();
+        var now = LocalDateTime.now();
+        return "["+now+"] My first story is from:" + myFirstBean.getName();
     }
 }
