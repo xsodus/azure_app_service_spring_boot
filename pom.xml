@@ -84,6 +84,7 @@
 		            <schemaVersion>v2</schemaVersion>
 		            <resourceGroup>Java-Spring-Boot-App</resourceGroup>
 		            <appName>simple-spring-boot-rest-api</appName>
+                    <deploymentSlot><name>uat</name></deploymentSlot>
 		            <runtime>
 		                <os>Linux</os>
 		                <javaVersion>Java 17</javaVersion>

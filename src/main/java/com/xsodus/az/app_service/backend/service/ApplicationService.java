@@ -1,15 +1,14 @@
 package com.xsodus.az.app_service.backend.service;
 
 import com.xsodus.az.app_service.backend.component.MyFirstBean;
-import java.time.LocalDate;
 import java.time.LocalDateTime;
 import org.springframework.stereotype.Service;
 
 @Service
-public class MyStoryService {
+public class ApplicationService {
     private final MyFirstBean myFirstBean;
 
-    public MyStoryService(MyFirstBean myFirstBean) {
+    public ApplicationService(MyFirstBean myFirstBean) {
         this.myFirstBean = myFirstBean;
     }
 
